@@ -1,0 +1,39 @@
+--Request 
+GET https://38.95.10.104:4444/nsecom/productPage?productid=Jeans001&upc=JeansUPC11111&prodImage=jeans1.png&prodPrice=19.99
+Host: 38.95.10.104:4444
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://38.95.10.104:4444/nsecom/searchProduct?keyword=jeans
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: CavNV=4614013654296927497-55555-296234615646-1-9-0-7-59-210-33-0:
+----
+--Response 
+HTTP/1.1 200
+Cache-Control: no-store
+Set-Cookie: CavNV=4614013654296927497-55555-296234620772-1-9-0-8-59-210-33-0:; Path=/
+X-CavNV: 4614013654303990809_55555_10_1
+Strict-Transport-Security: max-age=0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self'; img-src 'self' ssl.google-analytics.com data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com ajax.googleapis.com maxcdn.bootstrapcdn.com ssl.google-analytics.com data:; style-src 'self' 'unsafe-inline' fonts.googleapis.com ssl.google-analytics.com maxcdn.bootstrapcdn.com ajax.googleapis.com www.google-analytics.com; font-src 'self' fonts.gstatic.com maxcdn.bootstrapcdn.com fonts.googleapis.com data:; report-uri /ContentSecurityPolicyReporter; connect-src 'self'; media-src 'self'; frame-src 'self'; object-src 'self'; frame-ancestors 'self'; worker-src 'self' blob:;
+Expect-CT: max-age=0
+header5: http:10.10.40.11:7001:nsecom;
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: CavNV=4614013654296927497-55555-296234620772-1-10-0-8-59-210-33-0:; Path=/
+Content-Type: text/html;charset=ISO-8859-1
+Content-Length: 3773
+Date: Mon, 22 May 2023 15:23:40 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+----
+

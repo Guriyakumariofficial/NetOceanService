@@ -1,0 +1,33 @@
+<!-- NetStorm GUI4  -->
+<html>
+<head><title>Page Response Snapshots for recorded script</title></head>
+<!-- Title of the screen -->
+  <link rel="stylesheet" href="/netstorm/css/Netstorm.css" type="text/css" /link>
+  <script language="javascript">
+
+    function showRecordedPageOnFrame(url)
+    {
+      parent.Dump.location = url;
+    }
+    //These functions highlight the row when we pass/hover on current row
+    function over(row)
+    {
+      row.oldBackgroundColor = row.style.backgroundColor;
+      row.style.backgroundColor = 'FFFFCC';
+    }
+
+    function out(row)
+    {
+      row.style.backgroundColor = row.oldBackgroundColor;
+    }
+
+    function highLightRow(rowId)
+    {
+      var newElement = document.getElementById(rowId);
+      if(typeof(oldElement)!='undefined'){
+        oldElement.style.backgroundColor = oldElement.oldBackgroundColor;}
+      newElement.oldBackgroundColor = newElement.style.backgroundColor;
+      newElement.style.backgroundColor = "#FFCC00";
+      oldElement = newElement;  } 
+</script>
+</head>

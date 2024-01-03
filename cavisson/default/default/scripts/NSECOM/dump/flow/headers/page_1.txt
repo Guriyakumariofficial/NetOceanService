@@ -1,0 +1,110 @@
+--Request 
+GET https://38.95.10.104:4444/nsecom/
+Host: 38.95.10.104:4444
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+Cache-Control: private
+Set-Cookie: CavNV=4614013654296927497-55555-296234593181-1-9-0-0-59-210-33-0:; Path=/
+X-CavNV: 4614013654296927497_55555_9_1
+Strict-Transport-Security: max-age=0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self'; img-src 'self' ssl.google-analytics.com data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com ajax.googleapis.com maxcdn.bootstrapcdn.com ssl.google-analytics.com data:; style-src 'self' 'unsafe-inline' fonts.googleapis.com ssl.google-analytics.com maxcdn.bootstrapcdn.com ajax.googleapis.com www.google-analytics.com; font-src 'self' fonts.gstatic.com maxcdn.bootstrapcdn.com fonts.googleapis.com data:; report-uri /ContentSecurityPolicyReporter; connect-src 'self'; media-src 'self'; frame-src 'self'; object-src 'self'; frame-ancestors 'self'; worker-src 'self' blob:;
+Expect-CT: max-age=0
+Accept-Ranges: bytes
+ETag: W/\"7398-1675561432000\"
+Last-Modified: Sun, 05 Feb 2023 01:43:52 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 7398
+Date: Mon, 22 May 2023 15:23:13 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+----
+--Request 
+GET https://38.95.10.104:4444/nsecom/images/logo.png
+Host: 38.95.10.104:4444
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+sec-ch-ua-platform: \"Linux\"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://38.95.10.104:4444/nsecom/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: CavNV=4614013654296927497-55555-296234593181-1-9-0-0-59-210-33-0:
+----
+--Response 
+HTTP/1.1 200
+Cache-Control: private
+Set-Cookie: CavNV=4614013654296927497-55555-296234593273-1-9-0-1-59-210-33-0:; Path=/
+X-CavNV: 4614013654296951050_55555_9_1
+Strict-Transport-Security: max-age=0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self'; img-src 'self' ssl.google-analytics.com data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com ajax.googleapis.com maxcdn.bootstrapcdn.com ssl.google-analytics.com data:; style-src 'self' 'unsafe-inline' fonts.googleapis.com ssl.google-analytics.com maxcdn.bootstrapcdn.com ajax.googleapis.com www.google-analytics.com; font-src 'self' fonts.gstatic.com maxcdn.bootstrapcdn.com fonts.googleapis.com data:; report-uri /ContentSecurityPolicyReporter; connect-src 'self'; media-src 'self'; frame-src 'self'; object-src 'self'; frame-ancestors 'self'; worker-src 'self' blob:;
+Expect-CT: max-age=0
+Accept-Ranges: bytes
+ETag: W/\"7404-1671140536000\"
+Last-Modified: Thu, 15 Dec 2022 21:42:16 GMT
+Content-Type: image/png;charset=UTF-8
+Content-Length: 7404
+Date: Mon, 22 May 2023 15:23:13 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+----
+--Request 
+GET https://38.95.10.104:4444/favicon.ico
+Host: 38.95.10.104:4444
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+sec-ch-ua-platform: \"Linux\"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://38.95.10.104:4444/nsecom/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: CavNV=4614013654296927497-55555-296234593273-1-9-0-1-59-210-33-0:
+----
+
+
+--Response 
+HTTP/1.1 404
+Cache-Control: private
+Set-Cookie: CavNV=4614013654296927497-55555-296234593403-1-9-0-2-59-210-33-0:; Path=/
+X-CavNV: 4614013654296984588_55555_9_1
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Access-Control-Allow-Origin,Access-Control-Allow-Credentials
+Strict-Transport-Security: max-age=0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self'; img-src 'self' ssl.google-analytics.com data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com ajax.googleapis.com maxcdn.bootstrapcdn.com ssl.google-analytics.com data:; style-src 'self' 'unsafe-inline' fonts.googleapis.com ssl.google-analytics.com maxcdn.bootstrapcdn.com ajax.googleapis.com www.google-analytics.com; font-src 'self' fonts.gstatic.com maxcdn.bootstrapcdn.com fonts.googleapis.com data:; report-uri /ContentSecurityPolicyReporter; connect-src 'self'; media-src 'self'; frame-src 'self'; object-src 'self'; frame-ancestors 'self'; worker-src 'self' blob:;
+Expect-CT: max-age=0
+Set-Cookie: CavNV=4614013654296927497-55555-296234593404-1-9-0-2-59-210-33-0:; Path=/
+Content-Length: 0
+Date: Mon, 22 May 2023 15:23:13 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+----
+

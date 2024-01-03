@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>NSEcom Search results</title>
+<style>
+
+#navcontainer ul
+{
+align:center;
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+
+color: #fff;
+background-color: #5B88C0;
+}
+
+#navcontainer ul li a:hover
+{
+color: #fff;
+background-color: #B75A00;
+}
+
+</style>
+</head>
+<body bgcolor='#E6E6FA' LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<form name=frmMain1 method=get action='searchProduct'>
+<table border =0 width=100%>
+<tr><td>
+<table border=0 width=60% align=center>
+<tr><br/>
+<td width=40% align=right><img src='images/nsecomlogo.png'></td>
+<td width=20%><input type=text style='font-size:16px;' name= 'keyword' /></td>
+<td width=40%><input type=submit  value='search'> </from>
+</tr>
+</table>
+</td></tr>
+<tr><td>
+<table border=0 width=60% align=center>
+<tr><td align=center>
+<div id='navcontainer' align=center>
+<ul >
+<li ><a href='#'>&nbsp;&nbsp;Gift Shop&nbsp;&nbsp;</a></li>
+<li><a href='#'>&nbsp;Women&nbsp;</a></li>
+<li><a href='#'>&nbsp;&nbsp;Men&nbsp;&nbsp;</a></li>
+<li><a href='#'>&nbsp;&nbsp;Shoes&nbsp;&nbsp;</a></li>
+<li><a href='#'>&nbsp;&nbsp;Home Accents&nbsp;&nbsp;</a></li>
+<li><a href='#'>&nbsp;New Items&nbsp;</a></li>
+</ul>
+</div>
+</td></tr>
+</table>
+</td></tr>
+
+
+
+<tr><td><table border=0 width=60% align=center><tr><td>&nbsp;&nbsp;9 Results for: jeans</td></tr></table></td></tr>
+<tr><td><table border=0 width=50% align=center>
+<tr><td align=left><a href="productPage?productid=Jeans001&upc=JeansUPC11111&prodImage=jeans1.png&prodPrice=19.99"><img src=images/jeans1.png width='150' height='160'/></a></td>
+<td align=left><a href="productPage?productid=Jeans002&upc=JeansUPC11112&prodImage=jeans2.png&prodPrice=29.99"><img src=images/jeans2.png width='150' height='160'/></a></td>
+<td align=left><a href="productPage?productid=Jeans003&upc=JeansUPC11113&prodImage=jeans3.png&prodPrice=39.99"><img src=images/jeans3.png width='150' height='160'/></a></td></tr>
+<tr><td align=left>Jean Lee color blue</td>
+<td align=left>Jean Lee color black</td>
+<td align=left>Jean Lee color blue</td></tr>
+<tr><td align=left> US $19.99</td>
+<td align=left> US $29.99</td>
+<td align=left> US $39.99</td></tr>
+</table></td></tr>
+
+<tr><td><table border=0 width=50% align=center>
+<tr><td align=left><a href="productPage?productid=Jeans004&upc=JeansUPC11114&prodImage=jeans4.png&prodPrice=49.99"><img src=images/jeans4.png width='150' height='160'/></a></td>
+<td align=left><a href="productPage?productid=Jeans005&upc=JeansUPC11115&prodImage=jeans5.png&prodPrice=59.99"><img src=images/jeans5.png width='150' height='160'/></a></td>
+<td align=left><a href="productPage?productid=Jeans006&upc=JeansUPC11116&prodImage=jeans6.png&prodPrice=69.99"><img src=images/jeans6.png width='150' height='160'/></a></td></tr>
+<tr><td align=left>Jean Lee color blue</td>
+<td align=left>Jean Lee color blue</td>
+<td align=left>Jean Lee color blue</td></tr>
+<tr><td align=left> US $49.99</td>
+<td align=left> US $59.99</td>
+<td align=left> US $69.99</td></tr>
+</table></td></tr>
+
+<tr><td><table border=0 width=50% align=center>
+<tr><td align=left><a href="productPage?productid=Jeans007&upc=JeansUPC11117&prodImage=jeans7.png&prodPrice=79.99"><img src=images/jeans7.png width='150' height='160'/></a></td>
+<td align=left><a href="productPage?productid=Jeans008&upc=JeansUPC11118&prodImage=jeans8.png&prodPrice=89.99"><img src=images/jeans8.png width='150' height='160'/></a></td>
+<td align=left><a href="productPage?productid=Jeans009&upc=JeansUPC11119&prodImage=jeans9.png&prodPrice=99.99"><img src=images/jeans9.png width='150' height='160'/></a></td></tr>
+<tr><td align=left>Jean Lee color blue</td>
+<td align=left>Jean Lee color blue</td>
+<td align=left>Jean Lee color blue</td></tr>
+<tr><td align=left> US $79.99</td>
+<td align=left> US $89.99</td>
+<td align=left> US $99.99</td></tr>
+</table></td></tr>
+
+
+</table>
+</body>
+</html>

@@ -1,0 +1,9 @@
+0:Start
+1:Start|flow
+2:Start|flow|index
+3:Start|flow|home
+4:Start|flow|searchProduct
+5:Start|flow|productPage
+6:Start|flow|addToBag
+7:Start|flow|shippingAddress
+8:Start|flow|checkOut
